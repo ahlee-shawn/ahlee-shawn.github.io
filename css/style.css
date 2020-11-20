@@ -74,7 +74,7 @@ figure {
 
 #colorlib-aside {
 	padding-top: 3em;
-	padding-bottom: 40px;
+	padding-bottom: 40px;*
 	float: left;
 	width: 300px;
 	position: fixed;
@@ -192,11 +192,12 @@ figure {
 		font-weight: 400;
 		color: rgba(0, 0, 0, 0.5);
 		padding: 0 20px;
-		width: 100%; }
+		width: 100%;
+		display: block;
+		 }
 		@media screen and (max-width: 768px) {
 			#colorlib-aside .colorlib-footer {
-				position: relative;
-				bottom: 0; } }
+				display: block; } }
 		#colorlib-aside .colorlib-footer span {
 			display: block; }
 		#colorlib-aside .colorlib-footer ul {
